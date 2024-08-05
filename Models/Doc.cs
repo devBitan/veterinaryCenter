@@ -32,7 +32,6 @@ public class Dog : Animal
         else{
             Console.WriteLine($"{Name}'s breeding status: not available for breeding");
         }
-  
     }
 
     public override void BasicReview()
@@ -40,7 +39,6 @@ public class Dog : Animal
         Console.WriteLine($"Dog {Name}");
     }
 
-    
     public void Hairdress()
     {
         if (CoatType != "Short")

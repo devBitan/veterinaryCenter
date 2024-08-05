@@ -22,7 +22,6 @@ public class Cat : Animal
         Console.WriteLine($"Cat {Name}");
     }
 
-
     public void Hairdress()
     {
         if (FurLength != "None")
