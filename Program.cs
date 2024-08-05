@@ -1,115 +1,9 @@
-﻿// using veterinaryCenter.Models;
-
-// void Menu()
-// {
-//     Console.Clear();
-//     Console.WriteLine("--------------------------------------------");
-//     Console.WriteLine("|            Veterinary Center             |");
-//     Console.WriteLine("--------------------------------------------");
-//     Console.WriteLine("| 1.  Add driver                           |");
-//     Console.WriteLine("| 2.  Delete driver                        |");
-//     Console.WriteLine("| 3.  Show drivers                         |");
-//     Console.WriteLine("| 4.  Update driver                        |");
-//     Console.WriteLine("| 5.  Add customer                         |");
-//     Console.WriteLine("| 6.  Delete customer                      |");
-//     Console.WriteLine("| 7.  Show customers                       |");
-//     Console.WriteLine("| 8.  Update customer                      |");
-//     Console.WriteLine("| 9.  Add vehicle                          |");
-//     Console.WriteLine("| 10. Delete vehicle                       |");
-//     Console.WriteLine("| 11. Show vehicles                        |");
-//     Console.WriteLine("| 12. Update vehicle                       |");
-//     Console.WriteLine("| 13. Users older than 30                  |");
-//     Console.WriteLine("| 14. Drivers ordered by experience (dec)  |");
-//     Console.WriteLine("| 15. Customers that pays with credit card |");
-//     Console.WriteLine("| 16. Drivers with 'A2' license            |");
-//     Console.WriteLine("| 17. Exit                                 |");
-//     Console.WriteLine("--------------------------------------------");
-//     Console.Write("Write the number of the option that you want: ");
-//     int option = int.Parse(Console.ReadLine());
-
-//     switch (option)
-//     {
-//         case 1:
-//             Console.Clear();
-//             AddDriver();
-//             getMenu();
-//             break;
-//         case 2:
-//             Console.Clear();
-//             ShowDrivers();
-//             DeleteDriver();
-//             getMenu();
-//             break;
-//         case 3:
-//             Console.Clear();
-//             ShowDrivers();
-//             getMenu();
-//             break;
-//         case 4:
-//             Console.Clear();
-//             ShowDrivers();
-//             UpdateDriver();
-//             getMenu();
-//             break;
-//         case 5:
-//             Console.Clear();
-//             AddCustomer();
-//             getMenu();
-//             break;
-//         case 6:
-//             Console.Clear();
-//             ShowCustomers();
-//             DeleteCustomer();
-//             getMenu();
-//             break;
-//         case 7:
-//             Console.Clear();
-//             ShowCustomers();
-//             getMenu();
-//             break;
-//         case 8:
-//             Console.Clear();
-//             ShowCustomers();
-//             UpdateCustomer();
-//             getMenu();
-//             break;
-//         case 9:
-//             Console.Clear();
-//             ShowDrivers();
-//             AddVehicle();
-//             getMenu();
-//             break;
-//         case 10:
-//             Console.Clear();
-//             ShowVehicles();
-//             DeleteVehicle();
-//             getMenu();
-//             break;
-//         case 11:
-//             Console.Clear();
-//             ShowVehicles();
-//             getMenu();
-//             break;
-//         case 12:
-//             Console.Clear();
-//             ShowVehicles();
-//             UpdateVehicle();
-//             getMenu();
-//             break;
-//         default:
-//             Console.WriteLine("Invalid option.");
-//             getMenu();
-//             break;
-//     }
-//  }
-
-// Menu();
-using veterinaryCenter.Models;
+﻿using veterinaryCenter.Models;
 class Program
 {
     static void Main(string[] args)
     {
-        VeterinaryClinic clinic = new VeterinaryClinic("Pet Care", "123 Main St");
+        VeterinaryClinic clinic = new VeterinaryClinic("Riwi pet", "Cra 4 Medellin");
 
         while (true)
         {
@@ -141,8 +35,8 @@ class Program
                     clinic.ShowAllPatients();
                     break;
                 case "4":
-                    Console.Write("Enter patient ID to update: ");
-                    int updateId = int.Parse(Console.ReadLine());
+                    Console.Write("Enter patient Name to update: ");
+                    string updateId = (Console.ReadLine());
                     Console.Write("Is it a dog or a cat? (dog/cat): ");
                     string animalType = Console.ReadLine().ToLower();
                     if (animalType == "dog")
@@ -157,7 +51,7 @@ class Program
                     }
                     break;
                 case "5":
-                    Console.Write("Enter patient ID to delete: ");
+                    Console.Write("Enter patient Name to delete: ");
                     string deleteId = (Console.ReadLine());
                     Console.Write("Is it a dog or a cat? (dog/cat): ");
                     string deleteType = Console.ReadLine().ToLower();
@@ -182,7 +76,6 @@ class Program
                     break;
                 case "8":
                     break;
-
                 default:
                     Console.WriteLine("Invalid option. Please try again.");
                     break;

@@ -37,9 +37,9 @@ public class VeterinaryClinic
         }
     }
 
-    public void UpdateDog(int id, Dog updatedDog)
+    public void UpdateDog(string name, Dog updatedDog)
     {
-        var dogToUpdate = Dogs.FirstOrDefault(d => d.Id == id);
+        var dogToUpdate = Dogs.FirstOrDefault(d => d.Name == name);
         if (dogToUpdate != null)
         {
             int index = Dogs.IndexOf(dogToUpdate);
@@ -52,9 +52,9 @@ public class VeterinaryClinic
         }
     }
 
-    public void UpdateCat(int id, Cat updatedCat)
+    public void UpdateCat(string name, Cat updatedCat)
     {
-        var catToUpdate = Cats.FirstOrDefault(c => c.Id == id);
+        var catToUpdate = Cats.FirstOrDefault(c => c.Name == name);
         if (catToUpdate != null)
         {
             int index = Cats.IndexOf(catToUpdate);
@@ -137,5 +137,5 @@ public class VeterinaryClinic
 
         Console.WriteLine("Patient not found.");
     }
-    // Implementa los demás métodos aquí...
+
 }
