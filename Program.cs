@@ -40,12 +40,12 @@ class Program
                     string animalType = Console.ReadLine().ToLower();
                     if (animalType == "dog")
                     {
-                        Dog updatedDog = ManagerApp.CreateDog(); // Asume que ya tienes este método
+                        Dog updatedDog = ManagerApp.CreateDog(); 
                         clinic.UpdateDog(updateId, updatedDog);
                     }
                     else if (animalType == "cat")
                     {
-                        Cat updatedCat = ManagerApp.CreateCat(); // Asume que ya tienes este método
+                        Cat updatedCat = ManagerApp.CreateCat(); 
                         clinic.UpdateCat(updateId, updatedCat);
                     }
                     break;
