@@ -1,0 +1,14 @@
+/home/riwip5024/Desktop/bitan/veterinaryCenter/bin/Debug/net8.0/veterinaryCenter
+/home/riwip5024/Desktop/bitan/veterinaryCenter/bin/Debug/net8.0/veterinaryCenter.deps.json
+/home/riwip5024/Desktop/bitan/veterinaryCenter/bin/Debug/net8.0/veterinaryCenter.runtimeconfig.json
+/home/riwip5024/Desktop/bitan/veterinaryCenter/bin/Debug/net8.0/veterinaryCenter.dll
+/home/riwip5024/Desktop/bitan/veterinaryCenter/bin/Debug/net8.0/veterinaryCenter.pdb
+/home/riwip5024/Desktop/bitan/veterinaryCenter/obj/Debug/net8.0/veterinaryCenter.GeneratedMSBuildEditorConfig.editorconfig
+/home/riwip5024/Desktop/bitan/veterinaryCenter/obj/Debug/net8.0/veterinaryCenter.AssemblyInfoInputs.cache
+/home/riwip5024/Desktop/bitan/veterinaryCenter/obj/Debug/net8.0/veterinaryCenter.AssemblyInfo.cs
+/home/riwip5024/Desktop/bitan/veterinaryCenter/obj/Debug/net8.0/veterinaryCenter.csproj.CoreCompileInputs.cache
+/home/riwip5024/Desktop/bitan/veterinaryCenter/obj/Debug/net8.0/veterinaryCenter.dll
+/home/riwip5024/Desktop/bitan/veterinaryCenter/obj/Debug/net8.0/refint/veterinaryCenter.dll
+/home/riwip5024/Desktop/bitan/veterinaryCenter/obj/Debug/net8.0/veterinaryCenter.pdb
+/home/riwip5024/Desktop/bitan/veterinaryCenter/obj/Debug/net8.0/veterinaryCenter.genruntimeconfig.cache
+/home/riwip5024/Desktop/bitan/veterinaryCenter/obj/Debug/net8.0/ref/veterinaryCenter.dll
