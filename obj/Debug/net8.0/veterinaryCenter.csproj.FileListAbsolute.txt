@@ -12,3 +12,17 @@
 /home/riwip5024/Desktop/bitan/veterinaryCenter/obj/Debug/net8.0/veterinaryCenter.pdb
 /home/riwip5024/Desktop/bitan/veterinaryCenter/obj/Debug/net8.0/veterinaryCenter.genruntimeconfig.cache
 /home/riwip5024/Desktop/bitan/veterinaryCenter/obj/Debug/net8.0/ref/veterinaryCenter.dll
+C:\CODE\RIWI\rutaAvanzada\veterinaryCenter\bin\Debug\net8.0\veterinaryCenter.exe
+C:\CODE\RIWI\rutaAvanzada\veterinaryCenter\bin\Debug\net8.0\veterinaryCenter.deps.json
+C:\CODE\RIWI\rutaAvanzada\veterinaryCenter\bin\Debug\net8.0\veterinaryCenter.runtimeconfig.json
+C:\CODE\RIWI\rutaAvanzada\veterinaryCenter\bin\Debug\net8.0\veterinaryCenter.dll
+C:\CODE\RIWI\rutaAvanzada\veterinaryCenter\bin\Debug\net8.0\veterinaryCenter.pdb
+C:\CODE\RIWI\rutaAvanzada\veterinaryCenter\obj\Debug\net8.0\veterinaryCenter.GeneratedMSBuildEditorConfig.editorconfig
+C:\CODE\RIWI\rutaAvanzada\veterinaryCenter\obj\Debug\net8.0\veterinaryCenter.AssemblyInfoInputs.cache
+C:\CODE\RIWI\rutaAvanzada\veterinaryCenter\obj\Debug\net8.0\veterinaryCenter.AssemblyInfo.cs
+C:\CODE\RIWI\rutaAvanzada\veterinaryCenter\obj\Debug\net8.0\veterinaryCenter.csproj.CoreCompileInputs.cache
+C:\CODE\RIWI\rutaAvanzada\veterinaryCenter\obj\Debug\net8.0\veterinaryCenter.dll
+C:\CODE\RIWI\rutaAvanzada\veterinaryCenter\obj\Debug\net8.0\refint\veterinaryCenter.dll
+C:\CODE\RIWI\rutaAvanzada\veterinaryCenter\obj\Debug\net8.0\veterinaryCenter.pdb
+C:\CODE\RIWI\rutaAvanzada\veterinaryCenter\obj\Debug\net8.0\veterinaryCenter.genruntimeconfig.cache
+C:\CODE\RIWI\rutaAvanzada\veterinaryCenter\obj\Debug\net8.0\ref\veterinaryCenter.dll
