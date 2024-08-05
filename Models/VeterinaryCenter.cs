@@ -137,5 +137,22 @@ public class VeterinaryClinic
         }
         Console.WriteLine("Patient not found.");
     }
+       public void ToBreeding(string patient)
+    {
+        var dog = Dogs.FirstOrDefault(d => d.Name == patient);
+        if (dog != null)
+        {
+            dog.Breeding();
+            return;
+        }
+
+        var cat = Cats.FirstOrDefault(c => c.Name == patient);
+        if (cat != null)
+        {
+            cat.Breeding();
+            return;
+        }
+        Console.WriteLine("Patient not found.");
+    }
 
 }

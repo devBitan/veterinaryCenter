@@ -14,7 +14,8 @@ class Program
             Console.WriteLine("5. Delete Animal");
             Console.WriteLine("6. Show Animals");
             Console.WriteLine("7. show animal by name");
-            Console.WriteLine("8. Exit");
+            Console.WriteLine("8. Validate breeding");
+            Console.WriteLine("9. Exit");
             ManagerApp.ShowSeparator();
             Console.Write("Choose an option: ");
             string option = Console.ReadLine();
@@ -73,6 +74,11 @@ class Program
                     clinic.ShowPatient(showId);
                     break;
                 case "8":
+                    Console.Write("Enter patient Name to validate if available for breeding: ");
+                    string validateId = (Console.ReadLine());
+                    clinic.ToBreeding(validateId);
+                    break;
+                case "9":
                     Environment.Exit(0);
                     break;
                 default:

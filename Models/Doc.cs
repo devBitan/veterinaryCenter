@@ -20,14 +20,27 @@ public class Dog : Animal
 
     public override void ShowInformation()
     {
-        Console.WriteLine($"Dog: {Name}, Breed: {Breed}, Age: {CalculateAgeInMonths()} months");
+        Console.WriteLine($"Dog: {Name}, Breed: {Breed}, Age: {CalculateAgeInMonths()} months, Temperament: {Temperament}, MicrochipNumber: {MicrochipNumber}, barkVolume: {BarkVolume}");
+    }
+
+    public void Breeding()
+    {
+        if (BreedingStatus)
+        {
+            Console.WriteLine($"{Name}'s breeding status: available for breeding");
+        }
+        else{
+            Console.WriteLine($"{Name}'s breeding status: not available for breeding");
+        }
+  
     }
 
     public override void BasicReview()
     {
-        Console.WriteLine($"Performing basic review for dog {Name}");
+        Console.WriteLine($"Dog {Name}");
     }
 
+    
     public void Hairdress()
     {
         if (CoatType != "Short")

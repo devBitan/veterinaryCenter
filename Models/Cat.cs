@@ -14,13 +14,14 @@ public class Cat : Animal
 
     public override void ShowInformation()
     {
-        Console.WriteLine($"Cat: {Name}, Breed: {Breed}, Age: {CalculateAgeInMonths()} months");
+        Console.WriteLine($"Cat: {Name}, Breed: {Breed}, Age: {CalculateAgeInMonths()} months, ");
     }
 
     public override void BasicReview()
     {
-        Console.WriteLine($"Performing basic review for cat {Name}");
+        Console.WriteLine($"Cat {Name}");
     }
+
 
     public void Hairdress()
     {
@@ -32,5 +33,16 @@ public class Cat : Animal
         {
             Console.WriteLine($"{Name} has no fur to groom");
         }
+    }
+      public void Breeding()
+    {
+        if (BreedingStatus)
+        {
+            Console.WriteLine($"{Name}'s breeding status: available for breeding");
+        }
+        else{
+            Console.WriteLine($"{Name}'s breeding status: not available for breeding");
+        }
+  
     }
 }
