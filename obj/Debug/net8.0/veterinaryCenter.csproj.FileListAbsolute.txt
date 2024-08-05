@@ -26,3 +26,4 @@ C:\CODE\RIWI\rutaAvanzada\veterinaryCenter\obj\Debug\net8.0\refint\veterinaryCen
 C:\CODE\RIWI\rutaAvanzada\veterinaryCenter\obj\Debug\net8.0\veterinaryCenter.pdb
 C:\CODE\RIWI\rutaAvanzada\veterinaryCenter\obj\Debug\net8.0\veterinaryCenter.genruntimeconfig.cache
 C:\CODE\RIWI\rutaAvanzada\veterinaryCenter\obj\Debug\net8.0\ref\veterinaryCenter.dll
+C:\CODE\RIWI\rutaAvanzada\veterinaryCenter\obj\Debug\net8.0\veterinaryCenter.sourcelink.json
