@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = veterinaryCenter
-build_property.ProjectDir = /home/riwip5024/Desktop/bitan/veterinaryCenter/
+build_property.ProjectDir = C:\CODE\RIWI\rutaAvanzada\veterinaryCenter\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
