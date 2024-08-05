@@ -37,5 +37,105 @@ public class VeterinaryClinic
         }
     }
 
+    public void UpdateDog(int id, Dog updatedDog)
+    {
+        var dogToUpdate = Dogs.FirstOrDefault(d => d.Id == id);
+        if (dogToUpdate != null)
+        {
+            int index = Dogs.IndexOf(dogToUpdate);
+            Dogs[index] = updatedDog;
+            Console.WriteLine("Dog updated successfully.");
+        }
+        else
+        {
+            Console.WriteLine("Dog not found.");
+        }
+    }
+
+    public void UpdateCat(int id, Cat updatedCat)
+    {
+        var catToUpdate = Cats.FirstOrDefault(c => c.Id == id);
+        if (catToUpdate != null)
+        {
+            int index = Cats.IndexOf(catToUpdate);
+            Cats[index] = updatedCat;
+            Console.WriteLine("Cat updated successfully.");
+        }
+        else
+        {
+            Console.WriteLine("Cat not found.");
+        }
+    }
+
+    public void DeleteDog(string name)
+    {
+        var dogToDelete = Dogs.FirstOrDefault(d => d.Name == name);
+        if (dogToDelete != null)
+        {
+            Dogs.Remove(dogToDelete);
+            Console.WriteLine("Dog deleted successfully.");
+        }
+        else
+        {
+            Console.WriteLine("Dog not found.");
+        }
+    }
+
+    public void DeleteCat(string name)
+    {
+        var catToDelete = Cats.FirstOrDefault(c => c.Name == name);
+        if (catToDelete != null)
+        {
+            Cats.Remove(catToDelete);
+            Console.WriteLine("Cat deleted successfully.");
+        }
+        else
+        {
+            Console.WriteLine("Cat not found.");
+        }
+    }
+
+    public void ShowAnimals(string type)
+    {
+        if (type.ToLower() == "dog")
+        {
+            Console.WriteLine("Dogs:");
+            foreach (var dog in Dogs)
+            {
+                dog.ShowInformation();
+            }
+        }
+        else if (type.ToLower() == "cat")
+        {
+            Console.WriteLine("Cats:");
+            foreach (var cat in Cats)
+            {
+                cat.ShowInformation();
+            }
+        }
+        else
+        {
+            Console.WriteLine("Invalid animal type.");
+        }
+    }
+
+    public void ShowPatient(string patient)
+    {
+        var dog = Dogs.FirstOrDefault(d => d.Name == patient);
+        if (dog != null)
+        {
+            dog.ShowInformation();
+            return;
+        }
+
+        var cat = Cats.FirstOrDefault(c => c.Name == patient);
+        if (cat != null)
+        {
+            cat.ShowInformation();
+            return;
+        }
+
+        Console.WriteLine("Patient not found.");
+    }
     // Implementa los demás métodos aquí...
 }

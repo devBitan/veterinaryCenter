@@ -1,15 +1,15 @@
 namespace veterinaryCenter.Models;
 public class ManagerApp
 {
-    public static void CreateDog()
-    {
-        // Implementa la lógica para crear un perro
-    }
+    // public static void CreateDog()
+    // {
+    //     // Implementa la lógica para crear un perro
+    // }
 
-    public static void CreateCat()
-    {
-        // Implementa la lógica para crear un gato
-    }
+    // public static void CreateCat()
+    // {
+    //     // Implementa la lógica para crear un gato
+    // }
 
     public static void ShowHeader()
     {
