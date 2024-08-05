@@ -1,3 +1,5 @@
+// using Microsoft.VisualBasic;
+
 namespace veterinaryCenter.Models;
 public class VeterinaryClinic
 {
@@ -29,11 +31,11 @@ public class VeterinaryClinic
         Console.WriteLine("All Patients:");
         foreach (var dog in Dogs)
         {
-            dog.ShowInformation();
+            dog.BasicReview();
         }
         foreach (var cat in Cats)
         {
-            cat.ShowInformation();
+            cat.BasicReview();
         }
     }
 
@@ -118,7 +120,6 @@ public class VeterinaryClinic
             Console.WriteLine("Invalid animal type.");
         }
     }
-
     public void ShowPatient(string patient)
     {
         var dog = Dogs.FirstOrDefault(d => d.Name == patient);
@@ -134,7 +135,6 @@ public class VeterinaryClinic
             cat.ShowInformation();
             return;
         }
-
         Console.WriteLine("Patient not found.");
     }
 
